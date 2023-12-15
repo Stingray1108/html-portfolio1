@@ -1,0 +1,88 @@
+.gradient-background {
+    background: linear-gradient(300deg, #E06469, #BE5A83, #EAECCC);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+  .profile-img1 {
+    height: 220px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .first{
+    height: 500px;
+    padding-top: 60px;
+  }
+  body{
+    background-color: #C3E2C2;
+    text-align: center;
+  }
+  h1{
+    color:cadetblue;
+    font-family: papyrus;
+    font-weight:900;
+    font-size: 70px;
+  }
+  h2{
+    font-size: 40px;
+    color: cadetblue;
+  }
+  .lead1{
+    color: #C3E2C2;
+    font-size: 25px;
+  }
+  .lead2{
+    color:#E06469;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  hr {
+    border: dotted #80c2c2 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+.skillbox{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    color: #E06469;
+}
+.btn{
+    background-color: cadetblue;
+    color: #C3E2C2;
+    height: 50px;
+    width: 250px;
+    font-size: x-large;
+}
